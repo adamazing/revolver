@@ -6,30 +6,10 @@ A progress spinner for ZSH scripts
 
 ## Installation
 
-### [Zulu](https://github.com/zulu-zsh/zulu)
-
-```sh
-zulu install revolver
-```
-
-### zplug
-
-```sh
-zplug "molovo/revolver", \
-  as:command, \
-  use:revolver
-```
-
-### [Homebrew](http://brew.sh)
-
-```sh
-brew install molovo/revolver/revolver
-```
-
 ### Manual
 
 ```sh
-git clone https://github.com/molovo/revolver revolver
+git clone https://github.com/adamazing/revolver revolver
 chmod u+x revolver/revolver
 mv revolver/revolver /usr/local/bin
 ```
